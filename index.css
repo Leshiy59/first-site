@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Merriweather&family=Rubik:ital@1&display=swap");
+
+@media (max-width: 1000px) {
+  .body {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+body {
+  background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+  color: #0a1fa8;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "rubik", sans-serif;
+}
+.card-1 {
+  padding-top: 60px;
+  border-width: 3px;
+  border-color: #0a1fa8;
+  border-style: solid;
+  margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgb(172, 209, 236);
+  text-align: center;
+  display: inline-block;
+}
+.card-2 {
+  margin: 0 200px 0 200px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #0a1fa8;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  background-color: rgb(149, 200, 237);
+}
+
+.card-2 td {
+  width: 10%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.card-3 {
+  margin: 0 200px 0 200px;
+  border-width: 3px;
+  border-color: #0a1fa8;
+  border-style: solid;
+  padding-left: 10px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  background-color: rgb(126, 193, 240);
+}
+.card-4 {
+  margin: 0 200px 0 200px;
+  border-width: 3px;
+  border-color: #0a1fa8;
+  border-style: solid;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(85, 173, 236);
+}
+
+@media (max-width: 1000px) {
+  .card-1 .card-2 .card-3 .card-4 {
+    display: block;
+  }
+}
+
+.btn {
+  background-color: blueviolet;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.navbar {
+  position: fixed;
+  box-shadow: 0 2px 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  background-color: aqua;
+  /* padding: 10px 20px; */
+  margin-bottom: 20px;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 0.2px;
+}
+.navbar ul li {
+  margin-right: 10px;
+  padding: 10px;
+}
+.navbar ul li:hover {
+  background-color: rgb(8, 53, 93);
+}
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+.card-4 h2 {
+  text-align: center;
+}
+.feedback label {
+  display: block;
+  font-size: 14px;
+}
+
+.feedback input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid;
+  padding: 15px 0 10px;
+  font-family: inherit;
+}
+.card-1 {
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: right;
+}
+.card-2 table {
+  margin: auto;
+}
+#img {
+  margin-left: 300px;
+}
